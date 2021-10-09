@@ -1,0 +1,2 @@
+# kyrgyz.ai
+The website
