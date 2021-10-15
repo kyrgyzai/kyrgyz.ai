@@ -1,0 +1,12 @@
+{% extends 'polls/base.html' %}
+
+{% block title %}Details{% endblock title %}
+
+
+{% block body %}
+
+    {% if question %}
+        <h1>{{question.question_text}}</h1>
+    {% endif %}
+
+{% endblock body %}
